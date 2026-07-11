@@ -1,17 +1,14 @@
 {
-  "name": "usdt-clean",
+  "name": "tether-usdt-erc20",
   "version": "1.0.0",
-  "description": "",
+  "description": "Contrato inteligente USDT ERC20",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "ethers": "^5.8.0",
-    "solc": "^0.8.36"
+  "dependencies": {},
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
   }
 }
